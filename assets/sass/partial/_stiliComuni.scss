@@ -1,0 +1,24 @@
+//stili principali della pagina
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    color: $colore;
+    max-width: 1200px;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}

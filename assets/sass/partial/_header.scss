@@ -1,0 +1,42 @@
+header{
+    border:$bordo;
+    padding: $padd;
+    margin-top:$distanza;
+}
+
+/// NAV
+nav{
+    width:100%;
+    margin-top:$distanza;
+    padding: 0%;
+} 
+
+nav ul li{
+    width: 100%;
+    background-color: orange;
+    border-top:1px solid $colore2;
+}
+nav ul li:first-of-type{
+    border-top:none;
+}
+
+nav ul li a{
+    display: block;
+    padding: 2%;
+    margin-left: $padd;
+    text-decoration: none;
+    font-size: $dimPiccola;
+    color:$colore2
+}
+
+nav ul li a:hover{
+    color:$colore;
+    font-size:1em;
+}
+/// 
+
+/// div con hero banner
+#heroBanner{
+    margin:$margine;
+}
+///

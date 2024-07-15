@@ -1,0 +1,53 @@
+footer{
+    width: 100%;
+    border:$bordo;
+    padding:$padd;
+    margin:$margine;
+}
+
+/// TECNICA SPRITE
+footer section{
+    width: 100%;
+    margin:1% 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer section span{
+    margin:0 2px;
+    width:54px;
+    height:54px;
+    border-radius: 50%;
+    border:1px solid #ccc;
+    background-color: #ffffff;
+    background-image: url(../assets/img/completo.png);
+    transition:1s;
+}
+
+footer section span:hover{
+    border-color:#ff0000;
+    background-position-y: -60px;
+}
+
+footer section span:nth-child(2){
+    background-position-x: -54px;
+}
+
+footer section span:nth-child(3){
+    background-position-x: -108px;
+}
+
+footer section span:nth-child(4){
+    background-position-x: -162px;
+}
+
+footer section span:nth-child(5){
+    background-position-x: -216px;
+}
+///
+
+footer div{
+    margin: $margineAuto;
+    text-align: center;
+    font-size: $dimPiccola;
+}
